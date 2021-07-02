@@ -5,6 +5,8 @@ const ClientsPage = () => {
     {id: 1, name: "max"},
     {id: 2, name: "eri"}
   ]
+
+
   return (
     <div>
       <h1>My clients</h1>
@@ -19,7 +21,6 @@ const ClientsPage = () => {
            }}>{c.name}</Link></li>)
         
         }
-      
       </ul>
     </div>
   )
